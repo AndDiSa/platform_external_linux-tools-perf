@@ -100,6 +100,7 @@ static inline struct page * rb_insert_page_cache(struct inode * inode,
 #else
 #include <linux/kernel.h>
 #include <linux/stddef.h>
+#include <stdlib.h>
 #endif
 /* ANDROID_CHANGE_END */
 

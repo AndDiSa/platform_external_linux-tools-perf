@@ -12,6 +12,8 @@
 #include "util/trace-event.h"
 
 #include "util/debug.h"
+#include <sys/resource.h>
+
 
 /* ANDROID_CHANGE_BEGIN */
 #ifndef __APPLE__
